@@ -2,9 +2,23 @@
 > 
 > 如果你打开链接发现怎么也运行不了，请在 JavaScript 代码那一栏重新选择一下语法， JSX(React)
 
-# 组件通信
+# 组件
 
-## 父子/爷孙通信：龟兔赛跑  
+## 函数组件
+
+[在线链接](https://jsbin.com/vurolih/edit?html,js,output)
+
+要点：
+
+函数名字第一个字母大写。
+
+`return` 的内容需要用一个 `div` 包起来。
+
+`return` 的内容包含了一些标签，看起来像 HTML ，但其实不是。那是 JSX 语法。
+
+## 组件通信
+
+### 父子/爷孙通信：龟兔赛跑  
 
 [在线链接](https://jsbin.com/pasefiw/edit?html,js,output)
 
@@ -18,7 +32,7 @@
 
 2. 子组件在恰当的时候调用这个 fn，并且把数据放在 fn 的参数里
 
-## 任意组件通信：eventHub / Redux
+### 任意组件通信：eventHub / Redux
 
 ![单向数据流](./imgs/单向数据流.jpg)
 
